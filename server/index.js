@@ -4,8 +4,7 @@
 
 // mongoose
 //   .connect(
-//     //mongodb+srv://mohamedelmakhfi6:<password>@cluster0.g5bfrva.mongodb.net/your_data_base?retryWrites=true&w=majority
-//    "mongodb+srv://mohamedelmakhfi6:txcsAgAnpAENJeNN@@cluster0.g5bfrva.mongodb.net/?retryWrites=true&w=majority"
+//    "mongodb+srv://username:<password>@cluster0.g5bfrva.mongodb.net/?retryWrites=true&w=majority"
 //     )
 //   .then(() => {
 //     console.log("Connected successfuly");
@@ -37,7 +36,7 @@ const UserModel = require("./models/Users");
 
 mongoose
   .connect(
-    "mongodb+srv://mohamedelmakhfi6:txcsAgAnpAENJeNN@cluster0.g5bfrva.mongodb.net/CRUD?retryWrites=true&w=majority"
+    "mongodb+srv://username:<password>@cluster0.g5bfrva.mongodb.net/CRUD?retryWrites=true&w=majority"
   )
   .then(() => {
     console.log("Connected successfully");
